@@ -1,0 +1,6 @@
+<h2>Create User</h2>
+<form (ngSubmit)="createUser()">
+  <label>Name: <input [(ngModel)]="user.name" name="name" /></label><br />
+  <label>Course: <input [(ngModel)]="user.course" name="course" /></label><br />
+  <button type="submit">Create</button>
+</form>
